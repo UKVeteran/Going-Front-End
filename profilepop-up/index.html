@@ -1,0 +1,217 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, serif;
+  background: #dde1e7;
+  background-size: cover;
+}
+
+header img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  border: 5px solid #dde1e7;
+}
+
+aside {
+ 
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  height: 250px;
+  width: 250px;
+  background: #dde1e7;
+ box-shadow: -3px -3px 7px #fffdfdb7,
+ 
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+  background-size: cover;
+  overflow: hidden;
+ 
+  transition: all ease 0.3s;
+}
+
+aside:hover {
+ 
+  border-radius: 5px;
+  height: 520px;
+  width: 350px;
+  box-shadow: -3px -3px 7px #fffdfdb7,
+ 
+ 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+aside:hover header img {
+  animation: profile_image 2000ms linear both;
+  animation-delay: 0.5s;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  position: relative;
+  text-align: center;
+  color:#000000;
+  text-shadow:  -3px -3px 7px #fffdfdb7,
+ 
+ 2px 2px 5px rgba(94, 104, 121, 0.288);
+  font-size: 25px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 10px;
+  transition: all ease 0.250s;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+aside:hover header h1 {
+  margin-top: 0px;
+  outline: 0 solid #fff;
+  border-top: 0px solid #fff;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+header h2 {
+  text-align: center;
+  color:#000000;
+  text-shadow:  -3px -3px 7px #fffdfdb7,
+ 
+ 2px 2px 5px rgba(94, 104, 121, 0.288);
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 0px;
+  margin: 0;
+}
+
+.profile-bio {
+  margin-top: 20px;
+  padding: 1px 20px 10px 20px !important;
+  transition: all linear 1.5s;
+  color:#000000;
+  text-shadow:  -3px -3px 7px #fffdfdb7,
+ 
+ 2px 2px 5px rgba(94, 104, 121, 0.288);
+  font-size: 14px;
+  opacity: 0;
+   
+}
+
+aside:hover .profile-bio {
+  opacity: 1;
+}
+
+.profile-bio p:first-child {
+  text-align: center;
+  font-size: 16px;
+}
+
+.profile-social-links {
+  position: relative;
+  margin-top: -440px;
+  margin-left: -100px;
+  list-style-type: none;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+aside:hover .profile-social-links{
+    margin-left: -30px;
+    opacity: 1;
+}
+.profile-social-links li img{
+    width: 30px;
+    background: #dde1e7;
+ box-shadow: -3px -3px 7px #fffdfdb7,
+ 
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 50%;
+    padding: 5px;
+}
+.button{
+  background: #dde1e7;
+ box-shadow: -3px -3px 7px #fffdfdb7,
+ 
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+    border: none;
+    padding: 13px 35px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 4px 19px;
+}
+ 
+ 
+
+ </style>
+
+
+
+
+
+
+
+</head>
+<body>
+       
+<aside class="profile-card">
+
+  <header>
+
+    <!-- here’s the avatar -->
+    <a href="https://backlinkn.com">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chess_klt45.svg/2048px-Chess_klt45.svg.png">
+    </a>
+
+    <!-- the username -->
+    <h1>J. M. ASHFAQUE </h1>
+
+    <h2>Ph.D., MInstP, AATQB</h2>
+
+  </header>
+
+  <div class="profile-bio">
+ 
+      <p "position=center">
+  
+  </div>
+        
+ 
+
+<button class="button button1"> Subscribe</button>
+<button class="button button2">Share</button>
+  
+  <ul class="profile-social-links">
+
+    <!-- twitter  -->
+    <li>
+      <a href="https://twitter.com/tutsplus">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg">
+      </a>
+    </li>
+
+    <!-- codepen - your codepen profile-->
+    <li>
+      <a href="https://codepen.io/tutsplus">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg">
+      </a>
+    </li>
+
+  </ul>
+
+</aside>
+</body>
+
+
+
+</html>
